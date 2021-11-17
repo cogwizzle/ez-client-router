@@ -1,0 +1,28 @@
+{
+  "name": "ez-client-router",
+  "version": "0.0.1",
+  "description": "An easy to use client side router custom element",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cogwizzle/ez-client-router.git"
+  },
+  "keywords": [
+    "client",
+    "history",
+    "router",
+    "custom",
+    "element",
+    "web",
+    "component"
+  ],
+  "author": "cogwizzle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cogwizzle/ez-client-router/issues"
+  },
+  "homepage": "https://github.com/cogwizzle/ez-client-router#readme"
+}
