@@ -100,7 +100,10 @@ export class RouterElement extends HTMLElement {
     const route = this.indexedRoutes.find((indexedRoute) =>
       indexedRoute.regex.test(this.currentPath)
     );
-    if (!route || (route.path === '' && this.currentPath !== '')) {
+    if (
+      !route ||
+      (route.path === '' && this.currentPath !== '' && this.currentPath !== '/')
+    ) {
       this.notFound();
       return;
     }
