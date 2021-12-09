@@ -1,8 +1,8 @@
 {
   "name": "ez-client-router",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An easy to use client side router custom element",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
