@@ -4,7 +4,8 @@
   "description": "An easy to use client side router custom element",
   "main": "index.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typecheck": "tsc --noEmit --project jsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/cogwizzle/ez-client-router/issues"
   },
-  "homepage": "https://github.com/cogwizzle/ez-client-router#readme"
+  "homepage": "https://github.com/cogwizzle/ez-client-router#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
 }
